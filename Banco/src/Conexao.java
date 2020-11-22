@@ -17,7 +17,7 @@ public class Conexao {
 			
 			
 			Connection conn = DriverManager.getConnection(url, user, password);
-			System.out.println("Conexão efetuada!");
+			System.out.println("Conexão efetuada");
 			
 			
 			Statement stmt = conn.createStatement();
